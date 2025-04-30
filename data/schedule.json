@@ -1,0 +1,76 @@
+{
+    "schedule":
+    {
+        "headings": [
+            "Time (BST)",
+            "Wed 3rd",
+            "Thu 4th",
+            "Fri 5th"
+        ],
+        "rows": [
+            [{"display": "09:00-09:30", "type": "time"},
+             {"display": "Breakfast [RR]", "type": "break"},
+             {"display": "Breakfast [RR]", "type": "break"},
+             {"display": "Breakfast [DV]", "type": "break"}],
+
+            [{"display": "09:30-10:30", "type": "time"},
+             {"id": "pgr1"},
+             {"id": "pgr4"},
+             {"id": "pgr6"}],
+
+            [{"display": "10:30-11:00", "type": "time"},
+             {"display": "Mini break [RR]", "type": "break"},
+             {"display": "Mini break [RR]", "type": "break"},
+             {"display": "Mini break [DV]", "type": "break"}],
+
+            [{"display": "11:00-12:00", "type": "time"},
+             {"id": "pgr2"},
+             {"id": "workshop1"},
+             {"id": "panelaca"}],
+
+            [{"display": "12:00-13:00", "type": "time"},
+             {"display": "Lunch [RR]", "type": "break"},
+             {"display": "Lunch [RR]", "type": "break"},
+             {"display": "Lunch [DV]", "type": "break"}],
+
+            [{"display": "13:00-14:00", "type": "time"},
+             {"id": "workshop2"},
+             {"id": "pgr5"},
+             {"display": "Closing and Awards [RS]", "type": "social"}],
+
+            [{"display": "14:00-14:30", "type": "time"},
+             {"display": "Coffee break [RR]", "type": "break"},
+             {"display": "Coffee break [RR]", "type": "break"}],
+            
+            [{"display": "14:30-15:30", "type": "time"},
+             {"id": "ext1"},
+             {"id": "panelnon"}],
+
+            [{"display": "15:30-16:00", "type": "time"},
+             {"display": "Mini break [RR]", "type": "break"},
+             {"display": " ", "type": "social"}],
+
+            [{"display": "16:00-17:00", "type": "time"},
+             {"id": "pgr3"},
+             {"display": "Pub quiz social [EC]", "type": "social"}],
+
+            [{"display": "17:00-18:00", "type": "time"},
+             {"display": "Posters + Cheese & Wine [RR]", "type": "social"},
+             {"display": " ", "type": "social"}]
+        ]
+    },
+    "slotIDmap": {
+        "D0T1": "Wednesday 3rd July, 9:30",
+        "D0T3": "Wednesday 3rd July, 11:00",
+        "D0T5": "Wednesday 3rd July, 13:00",
+        "D0T7": "Wednesday 3rd July, 14:30",
+        "D0T9": "Wednesday 3rd July, 16:00",
+        "D0TP": "Wednesday 3rd July, 17:00",
+        "D1T1": "Thursday 4th July, 09:30",
+        "D1T3": "Thursday 4th July, 11:00",
+        "D1T5": "Thursday 4th July, 13:00",
+        "D1T7": "Thursday 4th July, 14:30",
+        "D2T1": "Friday 5th July, 09:30",
+        "D2T3": "Friday 5th July, 11:00"
+    }
+}

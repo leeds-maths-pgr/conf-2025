@@ -1,0 +1,43 @@
+{{ $schedule := $.Site.Data.schedule.schedule}}
+{{ $events := $.Site.Data.events.events}}
+<h2>2024 Program</h2>
+<br>
+
+<table class="timetable">
+    <thead>
+        {{ range $schedule.headings }}
+        <th>{{ . }}</th>
+        {{ end }}
+    </thead>
+    <tbody>
+        {{ range $row_index, $row := $schedule.rows }}
+        <tr>
+            {{ range $col_index, $data := $row }}
+                {{ if $data.id }}
+                  {{ $event:= index $events $data.id }}
+            <td id="{{ $data.id }}-tab" class="{{ $event.type }}">
+                <a href="#{{ $data.id }}-list">{{ $event.display }}</a>
+                {{ else if eq $data.display "Posters + Cheese & Wine [RR]" }}
+            <td id="poster-tab" class="social">
+                    <a href="#poster-list">{{ $data.display }}</a>
+                {{ else }}
+            <td class="{{ $data.type }}">
+                    {{ $data.display }}
+                {{ end }}
+            </td>
+            {{ end }}
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
+
+<br>
+<h4>Locations:</h4>
+<p>
+    <ul>
+        <li><strong>[RR]</strong> Reading Room, School of Maths Level 9;</li>
+        <li><strong>[DV]</strong> Dolce Vita Café, School of Maths Level 10;</li>
+        <li><strong>[EC]</strong> EC Stoner SR 7.83;</li>
+        <li><strong>[RS]</strong> Roger Stevens LT 15 (11.15) — main venue where all the talks listed below take place.</li>
+    </ul>
+</p>
