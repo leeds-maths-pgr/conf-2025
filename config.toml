@@ -2,6 +2,8 @@ baseURL = 'https://leeds-maths-pgr.github.io/conf-2025/'
 languageCode = 'en-gb'
 title = 'University of Leeds SoM PGR Conference'
 theme = "leeds_pgr_basic"
+[markup.goldmark.renderer]
+    unsafe=true
 [menu]
 [[menu.main]]
     name = "Home"
