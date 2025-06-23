@@ -4,7 +4,7 @@
     <meta name="generator" content="hugo" />
     <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/reset.css">
     {{ $style_css := resources.Get "scss/style.scss" }}
-    {{ $style := $style_css | css.Sass (dict "enableSourceMap" true) | resources.Fingerprint }}
+    {{ $style := $style_css | resources.ToCSS (dict "enableSourceMap" true) | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}timetable.css">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}schedule.css">
