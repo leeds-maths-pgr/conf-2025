@@ -131,6 +131,11 @@
       "name": "Atabey Kaygun",
       "title": "Can We Summarise a Text Without Reading It?",
       "abstract": "The linguistic at turn of the twentieth century reframed logic, mathematics, and philosophy around (formal) languages. This turn gave us powerful frameworks for syntax, semantics, and computation—from Frege and Gödel to Church and Turing. Today, we witness a new turn, a statistical turn. We now increasingly model meaning not symbolically, but statistically using patterns in data. Distributional semantics, word embeddings, and large language models strongly suggest that understanding can emerge from stochastic processes without syntactic parsing. In this talk, we survey this shift from rule-based to data-driven representations of language and intelligence, highlighting how ideas from spectral theory, matrix factorization, and probabilistic inference recast long-standing questions about meaning, knowledge, and cognition."
+    },
+    {
+      "id": "bm",
+      "name": "Benjamin Morris",
+      "title": "Poster: An Unorientable Extension of the Temperley Lieb Category"
     }
   ]
 }

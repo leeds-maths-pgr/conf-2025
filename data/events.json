@@ -51,19 +51,19 @@
       "display": "PGR talks 1",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["sah", "ar", "aam"]
+      "speakerlist": ["mk", "sy", "aam"]
     },
     "pgr2": {
       "display": "PGR talks 2",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["mk", "sy", "db"]
+      "speakerlist": ["db", "ar"]
     },
     "pgr3": {
       "display": "PGR talks 3",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["aa", "mt", "omg"]
+      "speakerlist": ["mt", "omg", "sah"]
     },
     "pgr4": {
       "display": "PGR talks 4",
@@ -81,19 +81,19 @@
       "display": "PGR talks 6",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["sps", "vc", "cl", "jl"]
+      "speakerlist": ["sb", "vc", "cl", "jl"]
     },
     "pgrfinal": {
       "display": "Final PGR talks, Closing + Awards",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["sb"]
+      "speakerlist": ["sps"]
     },
     "pgrp": {
       "display": "Posters + Cheese & Wine [RR]",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["aa", "gc", "sah", "mt", "ah", "db", "sb"]
+      "speakerlist": ["aa", "gc", "mt", "ah", "db", "sb", "bm"]
     }
   }
 }
