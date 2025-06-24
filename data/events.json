@@ -1,115 +1,99 @@
 {
-    "events": {
-        "ext1":{
-            "display": "Plenary talk",
-            "type": "alt-pres",
-            "format": "single-speaker",
-            "hasAbstract": "ex1",
-            "speaker": "Richard Mann"
-        },
-        "workshop1":{
-            "display": "Careers workshop",
-            "type": "alt-pres",
-            "format": "single-speaker",
-            "speaker": "Dr Steve Carter — Careers Centre, University of Leeds"
-        },
-        "workshop2":{
-            "display": "MathsCity workshop",
-            "type": "alt-pres",
-            "format": "single-speaker",
-            "hasAbstract": "ex2",
-            "speaker": "Max Hughes"
-        },
-        "panelaca": {
-            "display": "Academic careers panel",
-            "type": "careers",
-            "format": "multi-speaker",
-            "speakerlist": [
-                "Andrei Igoshev",
-                "Jonathan Schilhan",        
-                "Robert Barham",
-                "Steve Fitzgerald"
-            ]
-        },
-        "panelnon": {
-            "display": "Non-Academic careers panel",
-            "type": "careers",
-            "format": "multi-speaker",
-            "speakerlist": [
-                "Bea Adam-Day — Digital Health and Care Wales",
-                "Carlos Dibaya — Lloyds Banking Group",
-                "Christina Pontin — Mott MacDonald",
-                "Sam Elliott — Apple"
-            ]
-        },
-        "pgr1": {
-            "display": "PGR talks: session 1",
-            "type": "pgr-pres",
-            "format": "multi-speaker",
-            "speakerlist": [
-                "MT",
-                "AS"
-            ]
-        },
-        "pgr2": {
-            "display": "PGR talks: session 2",
-            "type": "pgr-pres",
-            "format": "multi-speaker",
-            "speakerlist": [
-                "MA",
-                "LS"
-            ]
-        },
-        "pgr3": {
-            "display": "PGR talks: session 3",
-            "type": "pgr-pres",
-            "format": "multi-speaker",
-            "speakerlist": [
-                "CRS",
-                "BM"
-            ]
-        },
-        "pgr4": {
-            "display": "PGR talks: session 4",
-            "type": "pgr-pres",
-            "format": "multi-speaker",
-            "speakerlist": [
-                "LG",
-                "HD"
-            ]
-        },
-        "pgr5": {
-            "display": "PGR talks: session 5",
-            "type": "pgr-pres",
-            "format": "multi-speaker",
-            "speakerlist": [
-                "AM",
-                "YL"
-            ]
-        },
-        "pgr6": {
-            "display": "PGR talks: session 6",
-            "type": "pgr-pres",
-            "format": "multi-speaker",
-            "speakerlist": [
-                "MV",
-                "BDS"
-            ]
-        },
-        "pgrp": {
-            "display": "Posters + Cheese & Wine [RR]",
-            "type": "pgr-pres",
-            "format": "multi-speaker",
-            "speakerlist": [
-                "01",
-                "02",
-                "03",
-                "04",
-                "05",
-                "06",
-                "07",
-                "08"
-            ]
-        }
+  "events": {
+    "talk1": {
+      "display": "Plenary talk",
+      "type": "alt-pres",
+      "format": "single-speaker",
+      "speaker": "Atabey Kaygun",
+      "hasAbstract": "ak"
+    },
+    "talk2": {
+      "display": "Plenary talk",
+      "type": "alt-pres",
+      "format": "single-speaker",
+      "speaker": "Derek Harland"
+    },
+    "talk3": {
+      "display": "Plenary talk",
+      "type": "alt-pres",
+      "format": "single-speaker",
+      "speaker": "Adrian Barker"
+    },
+    "talk4": {
+      "display": "Plenary talk",
+      "type": "alt-pres",
+      "format": "single-speaker",
+      "speaker": "Leonid Bogachev"
+    },
+    "mathscity": {
+      "display": "MathsCity",
+      "type": "alt-pres",
+      "format": "single-speaker",
+      "speaker": "Katie Chicot"
+    },
+    "panelaca": {
+      "display": "Academic careers panel",
+      "type": "careers",
+      "format": "multi-speaker",
+      "speakerlist": [
+        "Andrei Igoshev",
+        "Linden Disney-Hogg",
+        "Rukia Nuermaimaiti"
+      ]
+    },
+    "panelnon": {
+      "display": "Non-Academic careers panel",
+      "type": "careers",
+      "format": "multi-speaker",
+      "speakerlist": ["Ibraheem Sajid", "Rob Dymott"]
+    },
+    "pgr1": {
+      "display": "PGR talks: session 1",
+      "type": "pgr-pres",
+      "format": "multi-speaker",
+      "speakerlist": ["aa", "db"]
+    },
+    "pgr2": {
+      "display": "PGR talks: session 2",
+      "type": "pgr-pres",
+      "format": "multi-speaker",
+      "speakerlist": ["crs", "mk", "omg", "mt"]
+    },
+    "pgr3": {
+      "display": "PGR talks: session 3",
+      "type": "pgr-pres",
+      "format": "multi-speaker",
+      "speakerlist": ["ar", "jl", "aam", "ml"]
+    },
+    "pgr4": {
+      "display": "PGR talks: session 4",
+      "type": "pgr-pres",
+      "format": "multi-speaker",
+      "speakerlist": ["xq", "sah"]
+    },
+    "pgr5": {
+      "display": "PGR talks: session 5",
+      "type": "pgr-pres",
+      "format": "multi-speaker",
+      "speakerlist": ["yn", "lm", "bds", "sam"]
+    },
+    "pgr6": {
+      "display": "PGR talks: session 6",
+      "type": "pgr-pres",
+      "format": "multi-speaker",
+      "speakerlist": ["sps", "vc", "cl", "sy"]
+    },
+    "pgrfinal": {
+      "display": "Final PGR talks, Closing + Awards",
+      "type": "pgr-pres",
+      "format": "multi-speaker",
+      "speakerlist": ["sb"]
+    },
+    "pgrp": {
+      "display": "Posters + Cheese & Wine [RR]",
+      "type": "pgr-pres",
+      "format": "multi-speaker",
+      "speakerlist": ["aa", "gc", "sah", "mt", "ah", "db", "sb"]
     }
+  }
 }

@@ -11,13 +11,13 @@
     </thead>
     <tbody>
         {{ range $row_index, $row := $schedule.rows }}
-        <tr>
+        <tr style="height: {{math.Mul 6 ((index $row 0).size | default 1)}}ex">
             {{ range $col_index, $data := $row }}
                 {{ if $data.id }}
                   {{ $event:= index $events $data.id }}
             <td id="{{ $data.id }}-tab" class="{{ $event.type }}">
                 <a href="#{{ $data.id }}-list">{{ $event.display }}</a>
-                {{ else if eq $data.display "Posters + Cheese & Wine [RR]" }}
+                {{ else if eq $data.special "poster" }}
             <td id="poster-tab" class="social">
                     <a href="#poster-list">{{ $data.display }}</a>
                 {{ else }}
@@ -35,9 +35,10 @@
 <h4>Locations:</h4>
 <p>
     <ul>
-        <li><strong>[RR]</strong> Reading Room, School of Maths Level 9;</li>
-        <li><strong>[DV]</strong> Dolce Vita Café, School of Maths Level 10;</li>
-        <li><strong>[EC]</strong> EC Stoner SR 7.83;</li>
-        <li><strong>[RS]</strong> Roger Stevens LT 15 (11.15) — main venue where all the talks listed below take place.</li>
+        <li>All breakfasts, lunches and breaks are in <strong>[RR]</strong> Reading Room, School of Maths Level 9</li>
+        <li>All talks are in the MALL, School of Maths Level 8</li>
+        <li>The quiz social is in <strong>[MRD]</strong> Maths Research Deck, EC Stoner</li>
     </ul>
 </p>
+
+<p>* Posters will also be on display during the lunch breaks</p>

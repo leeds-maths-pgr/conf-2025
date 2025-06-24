@@ -12,7 +12,6 @@
         {{ if $data.id }}
             {{ $event := index $events $data.id }}
             {{ $slotID := print "D" (sub $i 1) "T" $j }}
-
             <div class="speakerbox">
             {{ if eq $event.format "multi-speaker" }}
                 <h4 id="{{ $data.id }}-list"> {{ $event.display }} </h4>
@@ -58,5 +57,6 @@
         <li id="{{ .id }}"><a href="/conf-2025/abstracts#{{ .id }}">{{ .name }}</a></li>
     {{ end }}
     </ul>
+Posters will also be on display during the lunch breaks
 </p>
 

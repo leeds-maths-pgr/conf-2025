@@ -1,76 +1,99 @@
 {
-    "schedule":
-    {
-        "headings": [
-            "Time (BST)",
-            "Wed 3rd",
-            "Thu 4th",
-            "Fri 5th"
-        ],
-        "rows": [
-            [{"display": "09:00-09:30", "type": "time"},
-             {"display": "Breakfast [RR]", "type": "break"},
-             {"display": "Breakfast [RR]", "type": "break"},
-             {"display": "Breakfast [DV]", "type": "break"}],
+  "schedule": {
+    "headings": ["Time (BST)", "Mon 30th", "Tue 1st", "Wed 2nd"],
+    "rows": [
+      [
+        { "display": "09:00-09:30", "type": "time", "size": 1 },
+        { "display": "Welcome + Breakfast", "type": "break" },
+        { "display": "Breakfast", "type": "break" },
+        { "display": "Breakfast", "type": "break" }
+      ],
 
-            [{"display": "09:30-10:30", "type": "time"},
-             {"id": "pgr1"},
-             {"id": "pgr4"},
-             {"id": "pgr6"}],
+      [
+        { "display": "09:30-10:30", "type": "time", "size": 2 },
+        { "id": "talk1" },
+        { "id": "mathscity" },
+        { "id": "pgr6" }
+      ],
+      [
+        { "display": "10:30-11:00", "type": "time", "size": 1 },
+        { "id": "pgr1" },
+        { "id": "pgr4" },
+        { "display": "", "type": "pgr-pres" }
+      ],
 
-            [{"display": "10:30-11:00", "type": "time"},
-             {"display": "Mini break [RR]", "type": "break"},
-             {"display": "Mini break [RR]", "type": "break"},
-             {"display": "Mini break [DV]", "type": "break"}],
+      [
+        { "display": "11:00-11:30", "type": "time", "size": 1 },
+        { "display": "Mini break", "type": "break" },
+        { "display": "Mini break", "type": "break" },
+        { "display": "Mini break", "type": "break" }
+      ],
 
-            [{"display": "11:00-12:00", "type": "time"},
-             {"id": "pgr2"},
-             {"id": "workshop1"},
-             {"id": "panelaca"}],
+      [
+        { "display": "11:30-13:00", "type": "time", "size": 3 },
+        { "id": "pgr2" },
+        { "id": "panelaca" },
+        { "id": "panelnon" }
+      ],
 
-            [{"display": "12:00-13:00", "type": "time"},
-             {"display": "Lunch [RR]", "type": "break"},
-             {"display": "Lunch [RR]", "type": "break"},
-             {"display": "Lunch [DV]", "type": "break"}],
+      [
+        { "display": "13:00-14:00", "type": "time", "size": 2 },
+        { "display": "Lunch", "type": "break" },
+        { "display": "Lunch", "type": "break" },
+        { "display": "Lunch", "type": "break" }
+      ],
 
-            [{"display": "13:00-14:00", "type": "time"},
-             {"id": "workshop2"},
-             {"id": "pgr5"},
-             {"display": "Closing and Awards [RS]", "type": "social"}],
+      [
+        { "display": "14:00-15:00", "type": "time", "size": 2 },
+        { "id": "talk2" },
+        { "id": "talk3" },
+        { "id": "talk4" }
+      ],
 
-            [{"display": "14:00-14:30", "type": "time"},
-             {"display": "Coffee break [RR]", "type": "break"},
-             {"display": "Coffee break [RR]", "type": "break"}],
-            
-            [{"display": "14:30-15:30", "type": "time"},
-             {"id": "ext1"},
-             {"id": "panelnon"}],
+      [
+        { "display": "15:00-15:30", "type": "time", "size": 1 },
+        { "display": "Coffee break", "type": "break" },
+        { "display": "Coffee break", "type": "break" },
+        { "display": "Coffee break", "type": "break" }
+      ],
 
-            [{"display": "15:30-16:00", "type": "time"},
-             {"display": "Mini break [RR]", "type": "break"},
-             {"display": " ", "type": "social"}],
+      [
+        { "display": "15:30-17:00", "type": "time", "size": 3 },
+        { "id": "pgr3" },
+        { "id": "pgr5" },
+        { "id": "pgrfinal" }
+      ],
 
-            [{"display": "16:00-17:00", "type": "time"},
-             {"id": "pgr3"},
-             {"display": "Pub quiz social [EC]", "type": "social"}],
-
-            [{"display": "17:00-18:00", "type": "time"},
-             {"display": "Posters + Cheese & Wine [RR]", "type": "social"},
-             {"display": " ", "type": "social"}]
-        ]
-    },
-    "slotIDmap": {
-        "D0T1": "Wednesday 3rd July, 9:30",
-        "D0T3": "Wednesday 3rd July, 11:00",
-        "D0T5": "Wednesday 3rd July, 13:00",
-        "D0T7": "Wednesday 3rd July, 14:30",
-        "D0T9": "Wednesday 3rd July, 16:00",
-        "D0TP": "Wednesday 3rd July, 17:00",
-        "D1T1": "Thursday 4th July, 09:30",
-        "D1T3": "Thursday 4th July, 11:00",
-        "D1T5": "Thursday 4th July, 13:00",
-        "D1T7": "Thursday 4th July, 14:30",
-        "D2T1": "Friday 5th July, 09:30",
-        "D2T3": "Friday 5th July, 11:00"
-    }
+      [
+        { "display": "17:00-18:30", "type": "time", "size": 2 },
+        {
+          "display": "Posters* + Wine + Pizza [RR]",
+          "type": "social",
+          "special": "poster"
+        },
+        { "display": "Quiz social [MRD]", "type": "social" }
+      ]
+    ]
+  },
+  "slotIDmap": {
+    "D0T1": "Monday 30th June, 9:30",
+    "D0T2": "Monday 30th June, 10:30",
+    "D0T4": "Monday 30th June, 11:30",
+    "D0T5": "Monday 30th June, 13:00",
+    "D0T6": "Monday 30th June, 14:00",
+    "D0T8": "Monday 30th June, 15:30",
+    "D0TP": "Monday 30th June, 17:00",
+    "D1T1": "Tuesday 1st July, 9:30",
+    "D1T2": "Tuesday 1st July, 10:30",
+    "D1T4": "Tuesday 1st July, 11:30",
+    "D1T5": "Tuesday 1st July, 13:00",
+    "D1T6": "Tuesday 1st July, 14:00",
+    "D1T8": "Tuesday 1st July, 15:30",
+    "D2T1": "Wednesday 2nd July, 9:30",
+    "D2T2": "Wednesday 2nd July, 10:30",
+    "D2T4": "Wednesday 2nd July, 11:30",
+    "D2T5": "Wednesday 2nd July, 13:00",
+    "D2T6": "Wednesday 2nd July, 14:00",
+    "D2T8": "Wednesday 2nd July, 15:30"
+  }
 }
