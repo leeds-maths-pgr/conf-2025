@@ -51,13 +51,13 @@
       "display": "PGR talks 1",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["mk", "sy", "aam"]
+      "speakerlist": ["mk", "sy", "db"]
     },
     "pgr2": {
       "display": "PGR talks 2",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["db", "ar"]
+      "speakerlist": ["aam", "ar"]
     },
     "pgr3": {
       "display": "PGR talks 3",
