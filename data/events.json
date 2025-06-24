@@ -11,7 +11,7 @@
       "display": "Plenary talk",
       "type": "alt-pres",
       "format": "single-speaker",
-      "speaker": "Derek Harland"
+      "speaker": "Leonid Bogachev"
     },
     "talk3": {
       "display": "Plenary talk",
@@ -23,7 +23,7 @@
       "display": "Plenary talk",
       "type": "alt-pres",
       "format": "single-speaker",
-      "speaker": "Leonid Bogachev"
+      "speaker": "Derek Harland"
     },
     "mathscity": {
       "display": "MathsCity",
@@ -32,7 +32,7 @@
       "speaker": "Katie Chicot"
     },
     "panelaca": {
-      "display": "Academic careers panel",
+      "display": "Academic careers",
       "type": "careers",
       "format": "multi-speaker",
       "speakerlist": [
@@ -42,46 +42,46 @@
       ]
     },
     "panelnon": {
-      "display": "Non-Academic careers panel",
+      "display": "Non-Academic careers",
       "type": "careers",
       "format": "multi-speaker",
       "speakerlist": ["Ibraheem Sajid", "Rob Dymott"]
     },
     "pgr1": {
-      "display": "PGR talks: session 1",
+      "display": "PGR talks 1",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["aa", "db"]
+      "speakerlist": ["sah", "ar", "aam"]
     },
     "pgr2": {
-      "display": "PGR talks: session 2",
+      "display": "PGR talks 2",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["crs", "mk", "omg", "mt"]
+      "speakerlist": ["mk", "sy", "db"]
     },
     "pgr3": {
-      "display": "PGR talks: session 3",
+      "display": "PGR talks 3",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["ar", "jl", "aam", "ml"]
+      "speakerlist": ["aa", "mt", "omg"]
     },
     "pgr4": {
-      "display": "PGR talks: session 4",
+      "display": "PGR talks 4",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["xq", "sah"]
+      "speakerlist": ["yn", "xq", "bds"]
     },
     "pgr5": {
-      "display": "PGR talks: session 5",
+      "display": "PGR talks 5",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["yn", "lm", "bds", "sam"]
+      "speakerlist": ["lm", "ml", "crs"]
     },
     "pgr6": {
-      "display": "PGR talks: session 6",
+      "display": "PGR talks 6",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["sps", "vc", "cl", "sy"]
+      "speakerlist": ["sps", "vc", "cl", "jl"]
     },
     "pgrfinal": {
       "display": "Final PGR talks, Closing + Awards",

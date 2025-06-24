@@ -85,11 +85,6 @@
       "abstract": "Layering is a widespread phenomenon in geophysical fluid dynamics, characterized by the emergence of regular patterns in which thin interfaces with sharp gradients alternate with thicker, well-mixed layers. This emergence of organized mesoscale patterns from chaotic flows via up-gradient transport is characteristic of anti-diffusive phenomena. This talk will focus on two systems where layering is prominent: stirred stratified turbulence and double-diffusive convection. I will present observational and experimental motivations, followed by an introduction to the modeling of layering in these systems from the perspective of anti-diffusion."
     },
     {
-      "id": "sam",
-      "name": "Sarah Almateari",
-      "title": "TBD"
-    },
-    {
       "id": "sy",
       "name": "Siyuan Yang",
       "title": "Locally Stationary Wavelet Model for Time Series",
