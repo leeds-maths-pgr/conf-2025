@@ -61,14 +61,14 @@
         { "display": "15:00-15:30", "type": "time", "size": 1 },
         { "display": "Coffee break", "type": "break" },
         { "display": "Coffee break", "type": "break" },
-        { "display": "Coffee break", "type": "break" }
+        { "id": "pgrfinal" }
       ],
 
       [
         { "display": "15:30-17:00", "type": "time", "size": 3 },
         { "id": "pgr3" },
         { "id": "pgr5" },
-        { "id": "pgrfinal" }
+        { "display": "", "type": "pgr-pres" }
       ],
 
       [
