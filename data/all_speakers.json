@@ -65,7 +65,8 @@
     {
       "id": "mt",
       "name": "Mervyn Tong",
-      "title": "Stability and External Definability (+ poster)"
+      "title": "What Makes a Theory Nice? (+ poster)",
+      "abstract": "In this talk, I will argue that you should like the rationals more as an additive abelian group than as an ordered set."
     },
     {
       "id": "ml",
@@ -136,6 +137,12 @@
       "id": "bm",
       "name": "Benjamin Morris",
       "title": "Poster: An Unorientable Extension of the Temperley Lieb Category"
+    },
+    {
+      "id": "dh",
+      "name": "Derek Harland",
+      "title": "Geometry and Dynamics",
+      "abstract": "I will try to explain some useful and interesting concepts in differential geometry, using the language of classical mechanics. If you don't know any differential geometry, this talk will introduce you to ideas that will help you in your future mathematical life. If you are a geometer, I hope that you pick up a fresh perspective on moduli spaces and their associated dynamics."
     }
   ]
 }
