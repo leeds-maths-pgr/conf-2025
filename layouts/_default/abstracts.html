@@ -1,5 +1,10 @@
 {{ define "main" }} {{ $speakers := $.Site.Data.all_speakers.speakers}}
 <section class="content">
+  <a href="{{.Site.BaseURL}}/files/abstracts.pdf" download
+    ><button>Download all abstracts</button></a
+  >
+  <br />
+  <br />
   <p class="pink">Click on names to view times</p>
   <details>
     <summary>Click on arrows to view abstracts</summary>
