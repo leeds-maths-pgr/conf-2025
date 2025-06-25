@@ -28,28 +28,6 @@ defaults:
     shell: bash
 
 jobs:
-  abstracts:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Python Setup
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.12
-
-      - name: Python Dependencies
-        run: pip install fpdf2
-
-      - name: Generate PDF
-        run: python generate_pdf.py
-
-      - name: Upload PDF artifact
-        uses: actions/upload-artifact@v4
-        with:
-          path: abstracts.pdf
-
   # Build job
   build:
     runs-on: ubuntu-latest

@@ -28,4 +28,4 @@ for speaker in sorted(data["speakers"], key = lambda s: s["name"]):
     pdf.multi_cell(0, 5, speaker.get("abstract", ""))
     pdf.ln(5)
 
-pdf.output("static/files/abstracts.pdf")
+pdf.output("static/files/SoMPGR2025_abstracts.pdf")
