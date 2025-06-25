@@ -37,13 +37,13 @@ jobs:
       - name: Python Setup
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: 3.12
 
       - name: Python Dependencies
-        uses: pip install fpdf2
+        run: pip install fpdf2
 
       - name: Generate PDF
-        uses: python generate_pdf.py
+        run: python generate_pdf.py
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
