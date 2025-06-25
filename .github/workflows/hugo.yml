@@ -48,7 +48,7 @@ jobs:
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
-          path: ./public/files/abstracts.json
+          path: abstracts.pdf
 
   # Build job
   build:
@@ -67,6 +67,17 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+
+      # Generate abstracts
+      - name: Python Setup
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.12
+      - name: Python Dependencies
+        run: pip install fpdf2
+      - name: Generate PDF
+        run: python generate_pdf.py
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
@@ -83,6 +94,7 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -94,7 +106,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: [abstracts, build]
+    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
