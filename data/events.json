@@ -11,7 +11,8 @@
       "display": "Plenary talk",
       "type": "alt-pres",
       "format": "single-speaker",
-      "speaker": "Leonid Bogachev"
+      "speaker": "Leonid Bogachev",
+      "hasAbstract": "lb"
     },
     "talk3": {
       "display": "Plenary talk",
@@ -23,7 +24,8 @@
       "display": "Plenary talk",
       "type": "alt-pres",
       "format": "single-speaker",
-      "speaker": "Derek Harland"
+      "speaker": "Derek Harland",
+      "hasAbstract": "dh"
     },
     "mathscity": {
       "display": "MathsCity",
@@ -93,7 +95,7 @@
       "display": "Posters + Cheese & Wine [RR]",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["aa", "gc", "mt", "ah", "db", "sb", "bm"]
+      "speakerlist": ["aa", "gc", "mtp", "ah", "db", "sb", "bm"]
     }
   }
 }
