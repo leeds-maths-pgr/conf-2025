@@ -44,7 +44,7 @@
     {
       "id": "sah",
       "name": "Shahad Alharbi",
-      "title": "Handling Sparsity in Microbiome Data: A Tobit model Approach",
+      "title": "Handling Sparsity in Microbiome Data: A Tobit Model Approach",
       "abstract": "Recent studies have demonstrated the potential of fecal microbiome profiling to enhance colorectal cancer screening by enabling earlier detection, reducing unnecessary colonoscopies, and lowering overall healthcare costs. Between 2016 and 2019, the largest hub of the NHS Bowel Cancer Screening Programme prospectively collected and processed guaiac fecal occult blood test (gFOBT) samples, which were linked to subsequent colonoscopy outcomes. DNA extracted from these samples underwent 16S rRNA gene V4 amplicon sequencing, and taxonomic profiling was performed to generate features for downstream analysis.\n\nA major challenge in microbiome data analysis is sparsity, where zeros may represent either true biological absence or undetected presence due to sequencing limitations. Many existing methods attempt to address this by imputing pseudo-counts, implicitly assuming that all zeros correspond to true absence.\n\nTo overcome this limitation, we adopt the Tobit model, treating zeros as left-censored values. We evaluated the performance of the model through simulation studies under varying censoring thresholds and sample sizes. Results indicate that while high levels of censoring introduce bias, this bias diminishes as sample size increases. Our implementation also supports flexible censoring thresholds and demonstrates improved numerical stability compared to existing R functions under conditions of extreme sparsity."
     },
     {
