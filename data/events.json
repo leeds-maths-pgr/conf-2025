@@ -89,13 +89,13 @@
       "display": "Final PGR talks, Closing + Awards",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["cl"]
+      "speakerlist": ["cl", "is"]
     },
     "pgrp": {
       "display": "Posters + Cheese & Wine [RR]",
       "type": "pgr-pres",
       "format": "multi-speaker",
-      "speakerlist": ["aa", "gc", "mtp", "ah", "db", "sb", "bm"]
+      "speakerlist": ["aa", "gc", "mtp", "ah", "db", "sb", "bm", "isp"]
     }
   }
 }
